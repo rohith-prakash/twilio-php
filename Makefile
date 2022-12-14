@@ -62,3 +62,6 @@ docker-dev-clean:
 
 docker-dev-test:
 	docker exec -t twilio_php${VERSION} /bin/bash -c 'make all'
+
+cluster-test:
+	phpunit --filter ClusterTest  tests/Twilio/ClusterTest.php

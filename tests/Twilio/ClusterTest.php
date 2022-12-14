@@ -3,38 +3,6 @@
 namespace Twilio\Tests;
 require "vendor/autoload.php";
 
-//require __FILE__ . "/src/Twilio/Rest/Client.php";
-//require __DIR__ . '/Twilio/Rest/Client.php';
-//require_once '/path/to/vendor/autoload.php';
-//require_once "Twilio/autoload.php";
-//include('src/Twilio/Rest/Client.php');
-//require_once('src/Twilio/Http/CurlClient.php');
-//require_once('src/Twilio/Http/Client.php');
-//use Twilio\Rest\Client;
-//require_once '/path/to/vendor/autoload.php';
-//require_once "Twilio/autoload.php";
-//set_include_path("src/Twilio/"/);
-//foreach (glob("src/Twilio/Rest/*.php") as $filename)
-//{
-//    include $filename;
-//}
-
-//function include_all_files_in_path($dir){
-//    $results = array();
-//    $files = scandir($dir);
-//
-//    foreach($files as $key => $value){
-//        if(!is_dir($dir. DIRECTORY_SEPARATOR .$value)){
-//            include $value;
-//        } else if(is_dir($dir. DIRECTORY_SEPARATOR .$value)) {
-//            $results[] = $value;
-//            include_all_files_in_path($dir. DIRECTORY_SEPARATOR .$value);
-//        }
-//    }
-//}
-//
-//include_all_files_in_path("src/Twilio");
-
 class ClusterTest extends \PHPUnit\Framework\TestCase
 {
     public static $accountSid = "";
